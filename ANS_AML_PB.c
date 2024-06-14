@@ -68,7 +68,7 @@ uint8_t readPB(void)
   while (1)
   {	  if(t0 < HAL_GetTick())
 	  {	  t0 += masa;
-		  HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_6);
+		  HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
 	  }
 	  if(t1 < HAL_GetTick())
 	  {	  t1 += 10;
