@@ -25,12 +25,6 @@ uint8_t pbStatus;
 char tx2buf[100];
 /* USER CODE END PV */
 
-
-
-
-
-
-
 /* USER CODE BEGIN 0 */
 void LEDs(uint8_t x)
 {	led1(x & (1<<0));
@@ -52,17 +46,6 @@ uint8_t readPB(void)
   LEDs(0);
   uint16_t masa=1000;
   /* USER CODE END 2 */
-
-
-
-
-
-
-
-
-
-
-
 
   /* USER CODE BEGIN WHILE */
   while (1)
