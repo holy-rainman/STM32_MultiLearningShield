@@ -15,15 +15,6 @@
   buzz(LOW);
   /* USER CODE END 2 */
 
-// SCROLL DOWN TO COPY A PIECE OF PROGRAM FOR WHILE LOOP!!
-
-
-
-
-
-
-
-
   /* USER CODE BEGIN WHILE */
   while (1)
   {
