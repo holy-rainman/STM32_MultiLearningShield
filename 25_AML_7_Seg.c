@@ -22,10 +22,6 @@ static uint8_t num[10] = {0xC0,0XF9,0xA4,0xB0,0x99,0x92,0x82,0xF8,0x80,0x90};
 static uint8_t seg[4] = {0xF1,0xF2,0xF4,0xF8};
 /* USER CODE END PV */
 
-// SCROLL DOWN TO COPY MORE PROGRAM!!
-
-
-
 
 void displaySegment(void)
 {
@@ -66,8 +62,6 @@ void multiplexSegment(uint16_t x)
 	}
 }
 /* USER CODE END 0 */
-
-
 
   /* USER CODE BEGIN 2 */
   t0 = t1 = HAL_GetTick();
