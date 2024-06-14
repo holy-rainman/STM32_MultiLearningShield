@@ -27,13 +27,6 @@ void readAnalog()
   HAL_TIM_Base_Start_IT(&htim6);
   /* USER CODE END 2 */
 
-//PLEASE SCROLL DOWN TO COPY MORE PROGRAM!
-
-
-
-
-
-
   /* USER CODE BEGIN WHILE */
   while (1)
   {
